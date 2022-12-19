@@ -7,7 +7,7 @@ paragraph = input("Enter a paragraph: \n")
 list_of_words = paragraph.split(" ")
 
 # Explain line 10 to line 13
-new_list_of_words = []
+new_list_of_words = [] # What is the use of this line?
 for index in range(0, len(list_of_words) - 1):
     each_word = list_of_words[index]
     new_list_of_words.append(each_word.title())
